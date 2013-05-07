@@ -1,0 +1,19 @@
+{
+    "name": "Chrome Search by site extension",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Search by site extension for Google Chrome",
+    "icons": {
+        "16": "./img/icon16.png",
+        "48": "./img/icon48.png",
+        "128": "./img/icon128.png"
+    },
+    "browser_action": {
+        "default_title": "Chrome Search by site",
+        "default_icon": "./img/icon16.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+            "tabs"
+    ]
+}
